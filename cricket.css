@@ -1,0 +1,120 @@
+body {
+  background-image: url(images/stadium.jpeg);
+  background-size: cover;
+
+  text-align: center;
+  position: relative;
+  top: 120px;
+  
+  }
+  
+.logo {
+  height: 120px;
+  width: 120px;
+  padding: 5px;
+  margin: 20px;
+  border-radius: 50%;
+  /* text-align: center; */
+  position: fixed;
+  
+
+  animation: square 18s ease-in-out 1s infinite alternate;
+}
+
+@keyframes square {
+  0% {
+    left: 0%;
+    top: 50%;
+  }
+  
+  25% {
+    left: 40%;
+    top: 90%;
+  }
+
+  50% {
+    left:90%;
+    top: 40%;
+  }
+
+  75% {
+    left: 50%px;
+    top: 0%;
+  }
+
+  100% {
+    left: 0%;
+    top: 50%;
+  }
+
+}
+
+.choice-button {
+  border: 2px solid goldenrod ;
+  background-color: rgb(236, 62, 53);
+  border-radius: 25px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.cimg {
+  border-radius: 25px;
+}
+
+.reset-img {
+  width: 100px;
+  height: 65px;
+  border-radius: 30px;
+}
+
+.ret {
+  /* height: 65px;
+  width: 100px; */
+  border: 2px solid goldenrod ;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(221, 107, 107);
+  cursor: pointer;
+}
+
+.logo2 {
+  height: 120px;
+  width: 120px;
+  padding: 5px;
+  margin: 20px;
+  border-radius: 50%;
+  /* text-align: center; */
+  position: fixed;
+  
+
+  animation: square2 18s ease-in-out 1s infinite alternate;
+}
+
+@keyframes square2 {
+  0% {
+    left: 0%;
+    top: 50%;
+  }
+  
+  25% {
+    left: 50%px;
+    top: 0%;
+  }
+
+  50% {
+    left:90%;
+    top: 40%;
+  }
+
+  75% {
+    
+    left: 40%;
+    top: 90%;
+  }
+
+  100% {
+    left: 0%;
+    top: 50%;
+  }
+
+}

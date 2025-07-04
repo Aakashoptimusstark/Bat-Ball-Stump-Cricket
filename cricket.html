@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cricket Game</title>
+  <link rel="stylesheet" href="cricket.css">
+</head>
+
+<body>
+  
+  <a href="#"><img class="logo" src="images\logo.png" alt="you"></a>
+  <a href="#"><img class="logo2" src="images\logo2.jpeg" alt="computer"></a>
+  
+  
+  <h2>Hello👋</h2>
+  <h1>Let's Play</h1>
+  <h1>Bat Ball Stump Cricket Game </h1>
+  
+
+  <div>
+    <button class="choice-button" onclick="funBat()"><img src="images\bat.jpeg"
+        alt="bat image" class="cimg" height="75px"></button>
+
+    <!-- Ball buuton  -->
+
+    <button class="choice-button" onclick="funBall()"><img src="images\ball.jpeg"
+        alt="ball image" class="cimg" height="70px"></button>
+
+    <!-- Stump button  -->
+
+    <button class="choice-button" onclick="funStump()"><img src="images\stump.jpeg" alt="stump"
+        class="cimg" height="75px"></button>
+
+    <h1 id="user-move"></h1>
+    <h1 id="computer-move"></h1>
+    <h1 id="result"></h1>
+    <h1 id="score"></h1>
+    <button class="ret" onclick="funReset()"><img
+        src="images\reset.jpeg"
+        alt="reset" class="reset-img" ></button>
+  </div>
+
+  
+
+  <script src="cricket.js">
+  </script>
+</body>
+
+</html>
