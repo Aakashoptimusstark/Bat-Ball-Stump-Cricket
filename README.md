@@ -38,8 +38,7 @@
 
 ## 📸 Demo
 
-(./images/screenshot.png)
+![Game Screenshot](./images/screenshot.png)
 
 ---
-
-## 📂 Folder Structure
+Done
