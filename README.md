@@ -38,7 +38,7 @@
 
 ## 📸 Demo
 
-![Game Screenshot](screenshot.png) <!-- Replace with your actual screenshot if uploading -->
+(/images/screenshot.png)
 
 ---
 
